@@ -1,3 +1,42 @@
-h1 {
-    color: blue;
+@font-face {
+    font-family: 'josefine';
+    src: url(../fonts/JosefinSans-ExtraLight.ttf);}
+@font-face {
+    font-family: 'josefine2';
+    src: url(../fonts/RobotoMono-ExtraLight.ttf);        
+
+}h1, h2 {
+    color:rgb(189, 103, 103);
+    background-color: bisque;
+    margin:auto;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'josefine';
+    font-size: 40px;
+   
+
+}
+h3 {
+    color: white;
+    background-color: rgb(189, 103, 103);
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'josefine2'
+}
+.img-center {
+    margin: auto;  
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+body {
+    margin: auto;
+    padding-left: 300px;
+    padding-right: 300px;   
+   
+}
+li,p {
+    font-family: 'josefine2';
+    
 }
