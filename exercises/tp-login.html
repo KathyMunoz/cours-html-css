@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire</title>
+    <title>Login</title>
     <link href="../assets/css/tp-formulaires.css" rel="stylesheet">
 </head>
 <body>
     <form>
-      <fieldset>
+      <fieldset class="flogin">
         <legend>Identifients</legend>
   <label for="username">Username:</label><br>
   <input type="text" id="username" name="username"><br>
   <label for="pwd">Password (10 caractères minimun):</label>
   <a href="../exercises/tp-forgot-pwd.html" target="_blank">Mot de passe oublié?</a><br>
-  <input type="password" id="pwd" name="pwd" minlenght="10" required />
-  <input type="button" value="Login"/>
+  <input type="password" id="pwd" name="pwd" minlenght="10" required >
+  <input type="button" value="Login"><br>
+  <a href="../exercises/tp-register.html" target="_blank">Vous voulez vous inscrire?</a>
 </fieldset>
 </form>
-<a href="../exercises/tp-register.html" target="_blank">Vous voulez vous inscrire?</a>
+
     
 </body>
 </html>
