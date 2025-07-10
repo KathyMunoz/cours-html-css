@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire</title>
+    <link href="../assets/css/tp-formulaires.css" rel="stylesheet">
 </head>
 <body>
     <div>
     <form>
+      <fieldset>
+        <legend>Formulaire d'inscription</legend>
+  <label for="cv">Ajoute ta photo de profil:</label>
+  <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" /><br>
   <label for="nom">Nom:</label><br>
   <input type="text" id="nom" name="nom"><br>
   <label for="prenom">Prénom:</label><br>
@@ -18,29 +23,16 @@
   <input type="text" id="ville" name="ville">
   <label for="codepostal">Code postal:</label>
   <input type="text" id="codepostal" name="codepostal"><br>
-  <label for="cv">Ajoute ta photo de profil:</label>
-  <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" /><br>
+  
   <label for="voitures">Nombres de voitures:</label>
   <input type="number" id="voitures" name="voitures" min="0" max="100" /><br>
   <label for="start">Date de naissance:</label>
   <input type="date" id="start" name="trip-start" value="2018-07-22" min="1956-01-01" max="2025-07-09" /><br>
   <label for="email">Mail:</label>
-  <input type="email" id="email" pattern=".+@example\.com" size="30" required placeholder="...@..." /><br>
+  <input type="email" id="email" pattern=".+@example\.com" size="30" required placeholder="...@..." /><br>  <input type="button" value="Inscription">
 
-  
- 
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-  <input type="button" value="Inscription"/>
   <a href="../exercises/tp-login.html" target="_blank">Vous aviez déjà une compte?</a>
+</fieldset>
 </form>
 </body>
 </html>
