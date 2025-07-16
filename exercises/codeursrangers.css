@@ -1,0 +1,16 @@
+h1 {
+    color: red;
+    display: flex;
+    justify-content: center;
+
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background: linear-gradient(#a71e5e, #813878, #ffe4e1 );
+}
+p {
+   
+    font-weight: bold;
+}
