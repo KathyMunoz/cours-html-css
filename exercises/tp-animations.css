@@ -1,0 +1,16 @@
+img {
+    height: 400px;
+}
+img:hover {
+    transform: scale(1.2);
+}
+@keyframes hellokitty {
+    0% {
+        transform: scale(1)
+        background-color: pink;
+    }
+
+}
+div {
+    animation: hellokitty 2s infinite alternate;
+}
