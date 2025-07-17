@@ -1,5 +1,7 @@
 img {
-    height: 400px;
+    height: 200px;
+    border-style: dotted;
+    border-radius: 80%;
   
     
 }
@@ -8,16 +10,30 @@ img:hover {
 }
 @keyframes hellokitty {
     0% {
-        transform: rotate(0deg);
-        background-color: pink;
+        transform: rotate(0deg) ;
+        background-color:pink;
+        transform: matrix(-4,6,10,5,7,5);
+        
+        
+        
+        
     }
     50% {
-        transform: rotate(360deg);
-        background-color: aqua;
+        transform: rotate(360deg) scale(-3);
+        background-color:aqua; 
+        transform: translateX(1000%);
+        
+        
+        
+        
     }
     100% {
-        transform: rotate(0deg);
-        background-color: chartreuse;
+        transform: rotate(0deg) scale(1.5);
+        background-color:chartreuse; 
+        transform: translateZ(50%);
+        
+        
+        
     }
    
 
@@ -28,8 +44,16 @@ div {
     animation-iteration-count: 2;
     animation-timing-function: ease-in-out;
     animation-play-state:unset;
-    animation-delay: 2s;
+    animation-delay: 0.5s;
     animation-fill-mode: forwards;
     
+    
+    
 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
 }
