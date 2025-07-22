@@ -1,0 +1,146 @@
+@import url(button.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#338397, #296ab4, #1179b6 );
+    padding: 10px 10px 10px 10px;
+
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+a {
+color: white;
+margin: 10px;
+text-decoration: none;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 2;
+}
+h2 {
+    line-height: 3;
+}
+
+.logo {
+    letter-spacing: 2px;
+    color:white;
+    font-weight: bolder;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(20, 83, 221),rgb(17, 153, 187) );
+    height: 60vh; 
+}
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+    color: white;
+}
+
+/* button {
+    border-radius: 20px;
+    background-color: yellow;
+    padding: 10px 20px 10px 20px;
+} 
+button:active {
+    background-color: pink;
+} */
+ .themes {
+    background-color: white;
+    text-align: center;
+    padding: 4rem 2rem 2rem;
+    max-width: 1200px;
+    margin: auto;
+ }
+
+
+ .themes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, 1fr)); 
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr; */
+    /* width: 70%;
+    margin: auto; */
+    gap:1.5rem;
+    
+ }
+ .theme-card img {
+ max-width:80%;
+  object-fit:cover;
+  border-radius:12px;
+  height: auto;
+  
+
+}
+ /* .themes-grid img {
+    max-width: 30%;
+    height: auto;
+ } */
+
+ .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     gap: 2em; 
+    padding: 2em;
+    margin: auto;
+    width: 60%;
+  
+ }
+ .theme-card {
+
+    border: solid 1px;
+    border-radius: 30px;
+    margin: 10px 20px 10px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor:pointer;
+    height: auto;
+    
+ }
+ .about-image img {
+    border: solid 0px;
+    border-radius: 10px;
+   
+ }
+
+footer {
+    text-align: center;
+    background-color: #296ab4;
+    padding: 20px 0px 20px 0px;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .themes-grid {
+        grid-template-columns: 1fr;}
+    
+    header {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    .about {
+        flex-direction: column;
+    }
+    nav {
+        flex-direction: column;
+    }
+}
